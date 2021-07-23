@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+    <head>
+		<meta charset="utf-8" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/logo.png">
+        <link rel="stylesheet" type="text/css" href="css/pushbar.css">
+
+        <!-- <link rel="stylesheet" type="text/css" href="css/animation.css"> -->
+		<title>Alpha Keita</title>
+	</head>
+
+	<body>
+        <section class="header" style="background-color: #000;">
+            <div class="container-title">
+                <h1 class="title"> <span class="typed"></span></h1>
+            </div>
+        </section>
+            <!-- SCRIPTS -->
+            <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+            <!-- <script type="text/javascript" src="js/animation.js"></script> -->
+            <!-- <script type="text/javascript" src="js/pushbar.js"></script> -->
+            <script>
+                document.documentElement.style.overflow = 'hidden';
+                var profil = document.getElementById("profil")
+                var typed = new Typed(".typed", {
+                    strings: [
+                            "Bienvenue à vous !",
+                            "Je suis étudiant,",
+                            "Je suis motivé,",
+                            "Je suis passionné,",
+                            "Je suis Alpha KEITA,",
+                            "Je vous présente mon portfolio !"
+                        ],
+                backSpeed: 10,
+                typeSpeed: 45,
+                startDelay: 50,
+                onComplete: (self) => {
+                    setTimeout(function(){               
+                        document.location.href="https://alpha-portf.netlify.app/me"; 
+                    }, 1500);
+                }
+                });
+            </script>
+	</body>
+</html>

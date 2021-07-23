@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
+
+/* ////////////////////////////////// GLOBAL /////////////////////////////// */
+:root{
+    --txt-color : #fff;
+    --bg-color : #000;
+}
+
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat';
+    color: var(--txt-color);
+    background-color: var(--bg-color);
+    scroll-behavior: smooth;
+    transition: background .8s;
+    overflow-x: hidden;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+.title{
+    font-size: clamp(20px, 7vw, 55px);
+    font-weight: 800;
+    text-align: center;
+    white-space: nowrap;
+}
+p{
+    font-size: clamp(12px, 4vw, 20px);
+    font-weight: 600;
+}
+section {
+    border-bottom: 1px solid var(--txt-color);
+}
+hr{
+    width: 70%;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), var(--txt-color), rgba(0, 0, 0, 0));
+    margin: 80px auto;
+}
+a {
+    color: #fff;
+}
+/*   ////////////////////////////////// Changement de thème et CV //////////////// */
+
+.btn-change{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+    bottom: 30px;
+    right: 3%;
+    opacity: 1;
+}
+.btn-change .theme{
+    font-size: 16px;
+    color: var(--txt-color);
+    margin-bottom: 5px;
+    line-height: calc(18px);
+}
+.btn-change .changeTheme{
+    background: var(--txt-color);
+    width: 80px;
+    height: 40px;
+    display: block;
+    cursor: pointer;
+    border-radius: 100px;
+    position: relative;
+    transition: background 0.4s ease 0s;
+}
+.btn-change .icone{
+    background: var(--txt-color);
+    content: "";
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    width: 35px;
+    height: 35px;
+    border-radius: 30px;
+    filter: invert(1);
+    transition: right 0.3s ease 0s, filter 0.4s ease 0s;
+}
+
+/* ///////////////////////////////////// BOUTON ////////////////////////////////// */
+
+/* .btn {
+    height: 40px;
+    width: 40px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.icone {
+    width: 30px;
+} */
+
+/* ///////////////////////////////////// SQUARE CV ////////////////////////////////// */
+
+.square{
+    position: absolute;
+    z-index: 97;
+    right: 5%;
+    top: 10%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.content{
+    position: absolute;
+    height: 100%;
+    padding: 15px;
+}
+.square-txt{
+    text-decoration: none;
+    text-align: center;
+    font-size: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-decoration: uppercase;
+    font-weight: 500;
+    font-family: 'Coming Soon', cursive;
+    color:  var(--txt-color);
+}
+
+.content:hover{
+    color: #e5e;
+}
+
+.square span:nth-child(1){
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid var(--txt-color);
+    border-radius: 38% 62% 63% 37% / 41% 44% 56% 59% ;
+    transition: 0.5s;
+    animation: animate 6s linear infinite;
+}
+.square span:nth-child(2){
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid var(--txt-color);
+    border-radius: 38% 62% 63% 37% / 41% 44% 56% 59% ;
+    transition: 0.5s;
+    animation: animate 4s linear infinite;
+}
+.square span:nth-child(3){
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid var(--txt-color);
+    border-radius: 38% 62% 63% 37% / 41% 44% 56% 59% ;
+    transition: 0.5s;
+    animation: animate 10s linear infinite;
+}
+@keyframes animate{
+    0%
+    {
+        transform: rotate(360deg);
+    }
+    100%
+    {
+        transform: rotate(0deg);
+    }
+}
+/* ///////////////////////////////////// CONTAINER /////////////////////////////// */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+/* ////////////////////////////////////////// HEADER - INDEX /////////////////////////// */
+.header{
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0);
+    padding: 100px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+}
+.container-title{
+    margin: auto;
+}
+/* ///////////////////////////////////////////// SECTION - A PROPOS ////////////////////// */
+.a-propos{
+    height: 100vh;
+    width: 100%;
+}
+.container.profil{
+    height: 100%;
+    width: 100%;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px;
+}
+.a-propos .profil p{
+    margin-top: 50px;
+    line-height: 1.5;
+    width: 100%;
+}
+/* ///////////////////////////////////////////// SECTION - PROJET ////////////////////// */
+.t-projet{
+    margin-top: 50px;
+}
+.projet {
+    width: 100%;
+    max-width: 850px;
+    border-radius: 30px;
+    box-shadow: 0 0 15px var(--txt-color);
+	overflow: hidden;
+	position: relative;
+    margin: 70px 0;
+    height: 650px;
+}
+.projet img {
+    display: block;
+    border:0;
+	position:absolute;
+    width: 100%;
+    height: 100%;
+}
+.projet .description {
+    display:none;
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background:#000;
+    color:#fff;
+    font-weight:600;
+    filter:alpha(opacity=80);    
+    -moz-opacity:0.8;    
+    -khtml-opacity: 0.8;    
+    opacity: 0.8;
+}
+.body-description{
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 0 35px;
+}
+.projet .description .d-title {
+    text-decoration:none;
+	color:#0cc7dd;
+	font-size: clamp(12px, 4vw, 28px);	
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 800;
+    text-align: center;
+}
+.projet .description .d-descri {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin: 10px 0;
+    text-decoration: underline;
+	font-size: clamp(8px, 4vw, 18px);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+.description p {
+    font-size: clamp(8px, 4vw, 18px);
+    margin-bottom: 2px;
+}
+.description .btn-middle{
+    display: flex;
+    justify-content: center;
+}
+
+.projet .description a{
+    color: white;
+    text-decoration: none;
+    border: 2px solid #216583;
+    background: transparent;
+    border-radius: 50px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 12px;
+    outline: none;
+    font-style: italic;
+    color: white;
+    margin: 10px 0;
+    padding: 15px 30px;
+}
+.projet .description a:hover{
+    background: rgb(50, 50, 50);
+}
+
+/* ///////////////////////////////////////////// SECTION - CONTACTS ////////////////////// */
+.contacts{
+    height: 300px;
+}
+.contacts .title{
+    margin-bottom: 30px;
+}
+.para-center{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.para-center span{
+    font-weight: 800;
+}
+/* ////////////////////////////////// MEDIA ///////////////////////////// */
+@media screen and (max-width: 1000px) {
+    .square{
+        position: fixed;
+        right: 2%;
+        top: auto;
+        bottom: 120px;
+    }
+    .square-txt {
+        font-size: 95%;
+    }
+}
+ @media screen and (max-width: 700px) {
+    .container.profil {
+        padding: 0;
+    }
+    .projet {
+        height: 800px;
+    }
+    .body-description {
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .projet .description .d-title {
+        font-size: 12px;
+    }
+    .projet .description .d-descri {
+        font-size: 10px;
+    }
+    .description p {
+        font-size: 8px;
+        margin-bottom: 0;
+    }
+}
+
+
