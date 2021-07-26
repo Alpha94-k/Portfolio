@@ -47,7 +47,7 @@ hr{
 a {
     color: #fff;
 }
-/*   ////////////////////////////////// Changement de thème et CV //////////////// */
+/*  Changement de thème, CV , Réseaux sociaux */
 
 .btn-change{
     display: flex;
@@ -88,6 +88,24 @@ a {
     transition: right 0.3s ease 0s, filter 0.4s ease 0s;
 }
 
+.reseaux-sociaux{
+    position: absolute;
+    width: 150px;
+    z-index: 97;
+    left: 50px;
+    top: 50px;
+}
+.reseaux-sociaux .icon{
+    display: flex;
+    justify-content: space-between;
+}
+
+.reseaux-sociaux .icon i{
+    color: var(--txt-color);
+    font-size: 60px;
+}
+
+
 /* ///////////////////////////////////// BOUTON ////////////////////////////////// */
 
 /* .btn {
@@ -113,8 +131,8 @@ a {
 .square{
     position: absolute;
     z-index: 97;
-    right: 5%;
-    top: 10%;
+    right: 50px;
+    top: 100px;
     width: 100px;
     height: 100px;
     display: flex;
@@ -341,7 +359,7 @@ a {
 @media screen and (max-width: 1000px) {
     .square{
         position: fixed;
-        right: 2%;
+        right: 20px;
         top: auto;
         bottom: 120px;
     }
