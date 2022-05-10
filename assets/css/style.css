@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 /* --- GLOBAL --- */
 ::-webkit-scrollbar {
@@ -377,7 +378,8 @@ transition: .8s ease-out;
 }
 
 .project-content{
-    font-size: clamp(10px, 1rem, 18px);
+    font-size: clamp(10px, .9rem, 18px);
+    font-family: 'Roboto', sans-serif;
     margin: 0 auto!important;
     justify-content: center;
     align-items: center;
