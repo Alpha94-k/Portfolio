@@ -1,27 +1,27 @@
 <!DOCTYPE html>
-    <head>
+    <head lang="fr">
 		<meta charset="utf-8" />
-        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="assets/css/style.css" />
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
-        <link rel="icon" type="image/png" sizes="16x16" href="img/logo.png">
-        <link rel="stylesheet" type="text/css" href="css/pushbar.css">
+        <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/logo.png">
+        <link rel="stylesheet" type="text/css" href="assets/css/pushbar.css">
 
         <!-- <link rel="stylesheet" type="text/css" href="css/animation.css"> -->
 		<title>Alpha Keita</title>
 	</head>
 
-	<body>
-        <section class="header" style="background-color: #000;">
+	<body class="main"">
+        <div class="cursor"></div>
+        <section class="header" style="background-color: var(--bg-color); background-image: url(./assets/img/grid-white.webp);">
             <div class="container-title">
-                <h1 class="title"> <span class="typed"></span></h1>
+                <h1 class="title-main"> <span class="typed"></span></h1>
             </div>
         </section>
+
             <!-- SCRIPTS -->
-            <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
             <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
-            <!-- <script type="text/javascript" src="js/animation.js"></script> -->
-            <!-- <script type="text/javascript" src="js/pushbar.js"></script> -->
+            <script src="assets/js/cursor.js"></script>
             <script>
                 document.documentElement.style.overflow = 'hidden';
                 var profil = document.getElementById("profil")
@@ -32,15 +32,15 @@
                             "Je suis motivé,",
                             "Je suis passionné,",
                             "Je suis Alpha KEITA,",
-                            "Je vous présente mon portfolio !"
+                            "Voici mon portfolio ^_^"
                         ],
-                backSpeed: 10,
-                typeSpeed: 45,
+                backSpeed: 1,
+                typeSpeed: 40,
                 startDelay: 50,
                 onComplete: (self) => {
-                    setTimeout(function(){               
-                        document.location.href="https://alphakta.github.io/me"; 
-                    }, 1500);
+                    setTimeout(function(){     
+                        document.location.href="./me.html"; 
+                    }, 1000);
                 }
                 });
             </script>

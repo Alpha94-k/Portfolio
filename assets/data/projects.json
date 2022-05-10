@@ -1,0 +1,131 @@
+{
+    "title": "Projects",
+    "projects": [
+        {
+            "id": 1,
+            "title": "Kermes",
+            "subtitle": "Web",
+            "description": "Kermes.fun, est un site que j'ai entièrement réalisé sur Wordpress et quelques éléments remaniés en HTML/CSS et JS dans le cadre de mon alternance pendant ma 3e année d'étude. C'est un site destiné à la location de structure gonflable pour les collectivités ou particuliers.",
+            "picture": "Kermes.png",
+            "url": "https://kermes.fun",
+            "alt": "Kermes"
+        },
+        {
+            "id": 2,
+            "title": "Sportigoo",
+            "subtitle": "Web",
+            "description": "Sportigoo filiale de Kermes, est aussi l'un des sites que j'ai entièrement réalisé sur Wordpress et quelques éléments en HTML/CSS et JS dans le cadre de mon alternance au sein de cette société. Ce site a été conçu afin d'être le plus ergonomique possible pour tout type d'internautes et apporter une identité numérique à la société.",
+            "picture": "Sportigoo.png",
+            "url": "https://sportigoo.fr",
+            "alt": "Sportigoo"
+        },
+        {
+            "id": 3,
+            "title": "Application TodoList",
+            "subtitle": "Kotlin",
+            "description": "Dans le cadre de mon apprentissage du langage Kotlin en Android, j'ai réalisé ce mini-projet d'étude, une application de to-do lists permettant d'ajouter, éditer et supprimer des tâches, à l'aide d'une API (https://android-tasks-api.herokuapp.com/api-docs/index.html).",
+            "picture": "MyAppAlpha.png",
+            "url": "https://github.com/alphakta/MyApp-Alpha",
+            "alt": "Application TodoList"
+        },
+        {
+            "id": 4,
+            "title": "Maze, labyrinthe",
+            "subtitle": "Node JS",
+            "description": "Maze, est un projet d'étude de mon Bachelor 3 CDGP, il nous était demandé de réaliser un script permettant de résoudre différentes maps en fonction de leur point de départ et d'arrivée (labyrinthe). Tout en optimisant le plus possible le temps d'exécution de notre script.",
+            "picture": "Maze.png",
+            "url": "https://github.com/alphakta/maze",
+            "alt": "Maze"
+        },
+        {
+            "id": 5,
+            "title": "Facebook API",
+            "subtitle": "Node JS",
+            "description": "Projet réalisé dans le cadre de mon Bachelor 3 CDGP en Node JS. Nous devions implémenter une API REST portant sur le même principe que le réseau social phare Facebook.",
+            "picture": "facebook-api.png",
+            "url": "https://github.com/alphakta/facebook-api",
+            "alt": "Facebook API"
+        },
+        {
+            "id": 6,
+            "title": "Animal Finder",
+            "subtitle": "React",
+            "description": "Mon premier projet en React dans le cadre de mon Bachelor 3 CDGP, il nous était de demander de réaliser un site en s'appuyant d'une API (https://animalfinderapi.herokuapp.com/docs/) en deux jours, soit un jeu du pendu versions animales.(projet non finalisé à 100%)",
+            "picture": "Pendu.png",
+            "url": "https://github.com/alphakta/my-app-finderanimal",
+            "alt": "Animal Finder"
+        },
+        {
+            "id": 7,
+            "title": "Système d'authentication",
+            "subtitle": "Vue JS",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis provident nostrum aspernatur modi sed voluptatem voluptate. Iure ex deleniti eum itaque officiis accusamus illum temporibus. Quia ullam fugiat cumque quo illo vitae tenetur eius autem pariatur numquam perferendis ab illum non repudiandae minima, possimus asperiores, cum commodi ducimus fuga reiciendis.",
+            "picture": "System-auth.png",
+            "url": "https://github.com/alphakta/app-project-auth",
+            "alt": "Système d'authentication"
+        },
+        {
+            "id": 8,
+            "title": "My-FTP",
+            "subtitle": "Node JS",
+            "description": "Projet d'étude dans le cadre de mon Bachelor 3 CDGP, le but de ce projet était de créer un client et un serveur FTP. En suivant le modèle RFC959. Le client devait pouvoir gérer plusieurs commandes...",
+            "picture": "My-FTP.png",
+            "url": "https://github.com/alphakta/my-ftp-live-main",
+            "alt": "My FTP"
+        },
+        {
+            "id": 9,
+            "title": "Happy-Fit",
+            "subtitle": "HTML-CSS-PHP-JS",
+            "description": "Dans le cadre du projet tutoré de notre S4, nous avons dû réaliser une application sportive et nutritionelle en groupe de 16 étudiants. Participation à la conception et réalisation de l'application progressive web apps.",
+            "picture": "Happy-Fit.png",
+            "url": "https://github.com/alphakta/happy-fit",
+            "alt": "Happy-Fit"
+        },
+        {
+            "id": 10,
+            "title": "Jeu de plateforme 2D",
+            "subtitle": "C#",
+            "description": "Dans le cadre du projet de notre S2, nous avons dû réaliser un jeu 2D au sein d'un groupe de 4 étudiants. Nous avons donc opté pour un jeu de plateforme 2D avec différents niveaux dans le but de divertir le jeune public, développer une certaine réactivité chez le joueur et améliorer ses capacités d’analyse.",
+            "picture": "Jeu 2D.png",
+            "url": "https://github.com/alphakta",
+            "alt": "Jeu 2D"
+        },
+        {
+            "id": 11,
+            "title": "Jeu de tir",
+            "subtitle": "JavaScript",
+            "description": "Dans le cadre de mon projet en programmation web avancé de S4 DUT Info. Il nous était demandé d'implémenter un jeu de tir en JavaScript dont le but était de cliquer le plus rapidement possible sur les monstres soit 2s avant que ceux-ci s'énervent et enclenchent la fin du jeu.",
+            "picture": "JeudeTir.png",
+            "url": "https://alphakta.github.io/Jeu-de-tir/",
+            "alt": "Jeu de Tir"
+        },
+        {
+            "id": 12,
+            "title": "Be-Primeur",
+            "subtitle": "HTML-CSS-PHP",
+            "description": "Dans le cadre du projet tutoré de mon S3 de DUT Info., nous avons dû réaliser un site web marchand. Nous devions utilisé une base de données, afin de gérer l'inscription, connexion, les différentes commandes et les stocks. Malheuresement je ne peux heberger de base de données via l'hébergeur que j'utilise. Ainsi seul le dépôt sur GitHub est disponible.",
+            "picture": "Be-Primeur.png",
+            "url": "https://github.com/alphakta/Be-Primeur",
+            "alt": "Be-Primeur"
+        },
+        {
+            "id": 13,
+            "title": "My Fitness Site",
+            "subtitle": "HTML-CSS",
+            "description": "Dans le cadre d'un projet personnel, afin de m'exercer, j'ai réalisé un site vitrine de Fitness avec plusieurs sections comme une section de contact, de tarifs, etc..",
+            "picture": "Fitness-Site.png",
+            "url": "https://alphakta.github.io/Fitness-Site/",
+            "alt": "My Fitness Site"
+        },
+        {
+            "id": 14,
+            "title": "Springfield",
+            "subtitle": "HTML-CSS",
+            "description": "Dans le cadre du projet CODIN de mon S1 de DUT Info., nous avons dû réaliser un site web. Le thème était libre, cependant le site devait être celui d'une office de toursime. Nous avons donc décider de choisir les Simpsons.",
+            "picture": "Springfield.png",
+            "url": "https://alphakta.github.io/Springfield/",
+            "alt": "Springfield"
+        }
+    ]
+}
