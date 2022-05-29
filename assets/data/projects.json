@@ -63,12 +63,12 @@
         },
         {
             "id": 7,
-            "title": "Système d'authentication",
+            "title": "Système d'authentification",
             "subtitle": "Vue JS",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis provident nostrum aspernatur modi sed voluptatem voluptate. Iure ex deleniti eum itaque officiis accusamus illum temporibus. Quia ullam fugiat cumque quo illo vitae tenetur eius autem pariatur numquam perferendis ab illum non repudiandae minima, possimus asperiores, cum commodi ducimus fuga reiciendis.",
             "picture": "System-auth.png",
             "url": "https://github.com/alphakta/app-project-auth",
-            "alt": "Système d'authentication",
+            "alt": "Système d'authentification",
             "state": false
         },
         {
@@ -92,6 +92,16 @@
             "alt": "Happy-Fit",
             "state": true
 
+        },
+        {
+            "id": 15,
+            "title": "Black Jack",
+            "subtitle": "JAVA",
+            "description": "Dans le cadre d'un projet universitaire pendant mon DUT, nous devions réaliser un programme du célèbre jeu BlackJack en JAVA dans la console. Les joueurs sont l'utilisateur et l'ordinateur.",
+            "picture": "blackjack.jpg",
+            "url": "https://github.com/alphakta/BlackJack",
+            "alt": "BlackJack",
+            "state": true
         },
         {
             "id": 10,
